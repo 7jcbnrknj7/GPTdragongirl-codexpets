@@ -1,0 +1,40 @@
+{
+  "name": "GPT龙娘",
+  "description": "白发紫瞳、宽翼轻舞的GPT龙娘，陪你思考、工作与检查成果。",
+  "sprite_version": 2,
+  "spritesheet": "assets/spritesheet.png",
+  "width": 1536,
+  "height": 2288,
+  "columns": 8,
+  "rows": 11,
+  "cell_width": 192,
+  "cell_height": 208,
+  "frames_per_row": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6,
+    8,
+    8
+  ],
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review",
+    "look-000-to-157.5",
+    "look-180-to-337.5"
+  ],
+  "generation_method": "built-in imagegen",
+  "atlas_sha256": "8bde2ae4a3a46dd56912b253e94154ef13905dcf04c24121601c975f79b24f58"
+}

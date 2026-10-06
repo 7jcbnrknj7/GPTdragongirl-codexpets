@@ -1,0 +1,70 @@
+{
+  "ok": true,
+  "atlas": "assets/spritesheet.png",
+  "encoded_bytes": 3733340,
+  "sha256": "8bde2ae4a3a46dd56912b253e94154ef13905dcf04c24121601c975f79b24f58",
+  "jump": {
+    "idle_baseline": 202,
+    "jump_baselines": [
+      202,
+      192,
+      184,
+      191,
+      202
+    ],
+    "airborne_lift_pixels": 18,
+    "landing_delta_pixels": 0
+  },
+  "look_registration": {
+    "neutral_center_x": 96.0,
+    "look_centers_x": [
+      98.0,
+      96.0,
+      95.5,
+      94.5,
+      96.5,
+      95.5,
+      94.5,
+      96.0,
+      96.5,
+      98.5,
+      97.0,
+      98.0,
+      99.0,
+      98.5,
+      98.5,
+      100.0
+    ],
+    "look_widths": [
+      122,
+      114,
+      113,
+      113,
+      115,
+      115,
+      115,
+      120,
+      119,
+      115,
+      114,
+      112,
+      112,
+      117,
+      117,
+      120
+    ],
+    "maximum_center_drift_pixels": 4.0,
+    "maximum_width_ratio": 1.0892857142857142
+  },
+  "errors": [],
+  "warnings": [
+    "look direction 022.5 accepted with a reviewed warning",
+    "look direction 045 accepted with a reviewed warning",
+    "look direction 157.5 accepted with a reviewed warning",
+    "look direction 202.5 accepted with a reviewed warning",
+    "157.5 has transparent interior hole rows (y=132, y=134, y=135, y=136, +1 more)",
+    "000->022.5 diff is a local outlier (3596 pixels vs neighbor average 2324)",
+    "157.5->180 diff is a local outlier (3234 pixels vs neighbor average 1996)",
+    "270->292.5 diff is a local outlier (3197 pixels vs neighbor average 2198)"
+  ]
+}
